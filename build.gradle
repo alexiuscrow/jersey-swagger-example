@@ -1,0 +1,25 @@
+group 'alexiuscrow'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+war.archiveName = 'swagger-exmpl.war'
+
+repositories {
+    mavenCentral()
+}
+
+def jerseyVersion = '2.25.1'
+def swaggerVersion = '1.5.13'
+
+dependencies {
+    compile "javax.servlet:javax.servlet-api:3.1.0"
+    compile "org.glassfish.jersey.core:jersey-server:${jerseyVersion}"
+    compile "org.glassfish.jersey.containers:jersey-container-servlet:${jerseyVersion}"
+
+    compile "io.swagger:swagger-jersey-jaxrs:${swaggerVersion}"
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
