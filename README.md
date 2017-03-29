@@ -1,9 +1,9 @@
-#Jersey 2 &amp; Swagger example project :punch:
+# Jersey 2 &amp; Swagger example project :punch:
  This repository contains the project that demonstrates how to usu [Jersey 2][jersey2] &amp; [Swagger][swagger] 
  frameworks together.<br><br>
  More about Jersey &amp; Swagger configuration you can find [here][jersey-doc] and [here][swagger-doc] respectively.
  
- ##Run it
+ ## Run it
  Just run `gradle war` to generate war file. It will be in `./build/lib` directory. Then deploy war file to your 
  servlet container (e.g. [Tomcat][tomcat]).<br>
  To get resource u can use next curl command: <br>
