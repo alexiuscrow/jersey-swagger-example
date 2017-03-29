@@ -5,14 +5,14 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <display-name>Swagger Example App</display-name>
+    <display-name>Jersey 2 and Swagger Example App</display-name>
 
     <servlet>
-        <servlet-name>alexiuscrow.swagger.example.JerseyConf</servlet-name>
+        <servlet-name>alexiuscrow.jersey2.swagger.example.JerseyConf</servlet-name>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>alexiuscrow.swagger.example.JerseyConf</servlet-name>
+        <servlet-name>alexiuscrow.jersey2.swagger.example.JerseyConf</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
