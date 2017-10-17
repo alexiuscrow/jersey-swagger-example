@@ -1,5 +1,5 @@
 # Jersey 2 &amp; Swagger example project :punch:
- This repository contains the project that demonstrates how to usu [Jersey 2][jersey2] &amp; [Swagger][swagger] 
+ This repository contains the project that demonstrates how to use [Jersey 2][jersey2] &amp; [Swagger][swagger] 
  frameworks together.<br>
  More about Jersey &amp; Swagger configuration you can find [here][jersey-doc] and [here][swagger-doc] respectively.
  
